@@ -1,0 +1,18 @@
+
+@mixin firstMixin($primary_color) {
+    background-color: $primary_color
+}
+
+@mixin secondMixin($danger) {
+background-color: $danger
+}
+
+@mixin dualMixins() {
+    @if mixin-exists($primary_color, ) {
+        @include firstMixin(#A52235);
+    }
+
+    @else if mixin-exists(secondMixin) {
+        @include secondMixin(#dc3545);
+    }
+}

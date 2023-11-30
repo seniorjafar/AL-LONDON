@@ -1,0 +1,11 @@
+$primary-color:#BB2339;
+$secondary-color:white;
+nav{
+    background-color: $primary-color;
+    a{
+        color: $secondary-color;
+    }
+}
+section{
+    background-color: $primary-color;
+}

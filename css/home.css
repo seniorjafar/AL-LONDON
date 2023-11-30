@@ -1,0 +1,35 @@
+nav {
+  background-color: #BB2339;
+}
+nav a {
+  color: white;
+}
+
+section {
+  background-color: #BB2339;
+}
+
+#btn-1 {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 1130px;
+  top: 0;
+}
+
+#btn-2 {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 1230px;
+  top: 0;
+}
+.font-family{
+  font-family: 'Fraunces', serif;
+}
